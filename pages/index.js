@@ -17,6 +17,9 @@ const content = {
 export default function Home() {
   return (
     <div style={content}>
+      <header>
+        <title>Ant design</title>
+      </header>
       <div className="text-center mb-5">
         <Link href="#">
           <a className="logo mr-0">
